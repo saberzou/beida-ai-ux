@@ -1,0 +1,463 @@
+[
+  {
+    "number": 1,
+    "title": "",
+    "texts": [
+      "SESSION  01",
+      "We're Being Designed Every Day",
+      "From Doubao to Her — Experience Is a Relationship",
+      "AI User Experience  ·  Peking University  ·  2026"
+    ],
+    "images": [
+      {
+        "path": "assets/slide1_img1.png",
+        "size_kb": 32021,
+        "width": 10,
+        "height": 5
+      }
+    ],
+    "notes": "Welcome everyone to Session 01 of AI User Experience. I'm excited to have you here at Peking University.\n\nBefore we dive in, let me set the stage: this course is not about learning Photoshop or drawing wireframes. It's about understanding how technology shapes the way people feel, behave, and connect.\n\nThe subtitle — \"From Doubao to Her\" — hints at our journey today. We'll move from real AI products you use every day to a science fiction film that predicted much of what's happening now. \"Experience Is a Relationship\" is the single biggest idea I want you to walk away with.\n\nQuick icebreaker: Think about the last app you opened. Why did you open it? Was it because of a feature — or because of how it made you feel? Hold that thought."
+  },
+  {
+    "number": 2,
+    "title": "",
+    "texts": [
+      "COURSE JOURNEY",
+      "01",
+      "Perceive",
+      "See Experience",
+      "02",
+      "Deconstruct",
+      "Break It Down",
+      "03",
+      "Redefine",
+      "Redefine UX"
+    ],
+    "images": [],
+    "notes": "Here's our roadmap for the full course — three acts, each building on the last.\n\nAct 1, \"Perceive\" — we start by simply noticing experience. Most people use products without thinking about why they feel a certain way. Today we'll train that awareness.\n\nAct 2, \"Deconstruct\" — once you can see experience, we'll break it apart. What are the building blocks? What decisions did a designer make, and why?\n\nAct 3, \"Redefine\" — finally, we'll challenge the conventional idea of what UX even is. Spoiler: it's not just about screens.\n\nFor those unfamiliar with UX: \"User Experience\" means every aspect of how a person interacts with a product, service, or system — what they see, how they feel, and whether the interaction helps them accomplish their goal. Think of it as the total impression a product leaves on you."
+  },
+  {
+    "number": 3,
+    "title": "",
+    "texts": [
+      "Movie clip"
+    ],
+    "images": [
+      {
+        "path": "assets/slide3_img1.jpg",
+        "size_kb": 209,
+        "width": 9,
+        "height": 5
+      }
+    ],
+    "notes": "We're going to watch a clip from the movie \"Her\" (2013), directed by Spike Jonze.\n\nThe film is set in a near future where a man named Theodore falls in love with an AI operating system named Samantha. What makes this film remarkable for our course is that Samantha has no visual interface — no screen, no buttons, no app. She exists purely as a voice.\n\nAs you watch, pay attention to one thing: How does Theodore feel during this interaction? And ask yourself — who designed that feeling?\n\nDon't worry about analyzing everything. Just notice your own reactions. We'll discuss after.\n\n[Play the clip — approximately 2-3 minutes]"
+  },
+  {
+    "number": 4,
+    "title": "",
+    "texts": [
+      "Her · 2013",
+      "Was there a user interface?",
+      "Was there a user experience?"
+    ],
+    "images": [
+      {
+        "path": "assets/slide4_img1.png",
+        "size_kb": 1625,
+        "width": 2,
+        "height": 2
+      },
+      {
+        "path": "assets/slide4_img2.png",
+        "size_kb": 1695,
+        "width": 2,
+        "height": 2
+      }
+    ],
+    "notes": "Let's unpack what we just saw from the movie \"Her.\"\n\nTheodore's first conversation with Samantha — she chose her own name, cracked a joke, and he laughed. Two minutes. Zero traditional interface.\n\nNow I want to ask you two questions. First: \"Was there a user interface?\" Think carefully. There were no buttons, no menus, no visual elements. In the traditional software sense — no, there was no UI.\n\nSecond: \"Was there a user experience?\" Absolutely yes. Theodore felt surprised, amused, intrigued, connected. That IS experience.\n\nThis is the core paradox of modern design: you can have an extraordinary user experience with zero user interface. This challenges the common assumption that UX design equals screen design.\n\nFor those of you studying computer science — this matters because the products you'll build increasingly won't have traditional screens. Voice assistants, smart agents, ambient computing. The interface is disappearing, but the need for experience design is growing."
+  },
+  {
+    "number": 5,
+    "title": "",
+    "texts": [
+      "Experience doesn't live in the interface.",
+      "It lives in how people feel."
+    ],
+    "images": [
+      {
+        "path": "assets/slide5_img1.jpg",
+        "size_kb": 3872,
+        "width": 9,
+        "height": 2
+      }
+    ],
+    "notes": "This is the key takeaway from the Her clip, and arguably the most important idea in this entire session.\n\n\"Experience doesn't live in the interface. It lives in how people feel.\"\n\nLet me say that again. The experience is NOT the button. It's not the color scheme. It's not the font. Those are tools — means to an end. The experience is what happens inside the person using the product.\n\nFor those of you from computer science or engineering backgrounds, this might feel abstract. But think of it this way: you can write perfectly optimized code that nobody wants to use. Or you can build something technically simple that people love. The difference? Experience design.\n\nThis is a fundamental shift in thinking. Traditional software engineering asks: \"Does it work?\" Experience design asks: \"How does it feel to use?\" Both matter, but the second question is what separates a product people tolerate from one they love.\n\nWrite this down — it will anchor everything we discuss today and throughout the course."
+  },
+  {
+    "number": 6,
+    "title": "",
+    "texts": [
+      "ACT 1",
+      "Doubao vs ChatGPT",
+      "Same Capability, Two Relationship Designs",
+      "20 min  ·  Lecture + Group Discussion"
+    ],
+    "images": [
+      {
+        "path": "assets/slide6_img1.png",
+        "size_kb": 3293,
+        "width": 10,
+        "height": 5
+      }
+    ],
+    "notes": "Now we move into Act 1. This is where theory meets the real world.\n\nWe're going to compare two AI products that you've probably used: Doubao (by ByteDance, the company behind TikTok and Douyin) and ChatGPT (by OpenAI). Both are large language model chatbots. Both can answer questions, write essays, summarize articles, generate code. From a technical standpoint, they're comparable.\n\nBut the user experience? Completely different. And that difference is 100% intentional — it's designed.\n\nThis section will run about 20 minutes — a lecture portion where I'll walk you through the key design differences, followed by a group discussion where you'll analyze your own experience.\n\nQuick definition for newcomers: A \"large language model\" or LLM is an AI system trained on massive amounts of text data. It predicts what words should come next, which allows it to have conversations, answer questions, and generate text. Think of it as a very sophisticated autocomplete that can hold a conversation.\n\nStart thinking: which one do you use more? Why?"
+  },
+  {
+    "number": 7,
+    "title": "",
+    "texts": [],
+    "images": [
+      {
+        "path": "assets/slide7_img1.png",
+        "size_kb": 3008,
+        "width": 9,
+        "height": 5
+      },
+      {
+        "path": "assets/slide7_img2.png",
+        "size_kb": 259,
+        "width": 2,
+        "height": 4
+      },
+      {
+        "path": "assets/slide7_img3.png",
+        "size_kb": 525,
+        "width": 2,
+        "height": 4
+      }
+    ],
+    "notes": "[This slide shows a visual — likely a screenshot or product demo of Doubao and/or ChatGPT]\n\nTake a moment to look at what's on screen. Before I explain anything, I want you to form your own first impression.\n\nWhat do you notice first? What feels inviting? What feels intimidating? What emotions does it evoke?\n\nIn UX design, we call this a \"first impression audit\" — capturing your gut reaction before your analytical brain kicks in. Your first impression is valuable data. It tells us something about the design choices someone made.\n\nKey concept: \"Affordance\" — what does the interface suggest you should do? A big empty text box says \"type here.\" A friendly greeting says \"talk to me.\" Same function, different invitation.\n\nNotice: designers made hundreds of micro-decisions to create that first impression — the color palette, the whitespace, the tone of the placeholder text, the size of the input area. Nothing is accidental."
+  },
+  {
+    "number": 8,
+    "title": "",
+    "texts": [
+      "SAME ENGINE, DIFFERENT PHILOSOPHY",
+      "ChatGPT",
+      "Message ChatGPT…",
+      "Tool",
+      "Give me an input box, users explore on their own",
+      "Doubao",
+      "Hi! What would you like to talk about today?",
+      "Companion",
+      "Proactively build relationships, keep users engaged",
+      "VS"
+    ],
+    "images": [],
+    "notes": "Here's the core comparison laid out side by side.\n\nChatGPT opens with \"Message ChatGPT...\" — a blank input box. That's it. No greeting, no suggestions, no warmth. The design says: \"This is a tool. It waits for your commands. You're in charge.\" In UX terms, this creates a TOOL mental model.\n\nNow look at Doubao: \"Hi! What would you like to talk about today?\" It greets you. It suggests topics. It feels warm and approachable. The design says: \"This is a companion. It reaches out to you. It cares about your day.\" This creates a COMPANION mental model.\n\nSame AI engine underneath. Same technical capability. But the greeting, the tone, the visual warmth, the use of emoji vs. plain text — these are all deliberate design decisions that fundamentally change how you relate to the product.\n\nKey UX principle to remember: The first 3 seconds of any product interaction set the user's mental model. That first impression creates an expectation framework that colors everything afterward. Once that model is set, it's extremely hard to change.\n\nThis is why onboarding design — the very first moment of contact — is one of the highest-leverage design decisions in any product. Small details, massive impact."
+  },
+  {
+    "number": 9,
+    "title": "",
+    "texts": [
+      "CORE CONCEPT 01",
+      "Mental Model",
+      "The mental image users hold about what a product is and how it works.",
+      "ChatGPT",
+      "\"It's a tool — it waits for my commands.\"",
+      "Doubao",
+      "\"It’s a group of contacts — I can talk to anyone.\"",
+      "VS"
+    ],
+    "images": [
+      {
+        "path": "assets/slide9_img1.png",
+        "size_kb": 1509,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "path": "assets/slide9_img2.png",
+        "size_kb": 1521,
+        "width": 1,
+        "height": 1
+      }
+    ],
+    "notes": "Now let's introduce our first core concept: Mental Model.\n\nA mental model is the picture or idea that forms in a user's head about what a product IS and how it works. It's not what the product actually is — it's what the user believes it to be. And that belief drives all their behavior.\n\nThink of a simple example: when you see a door handle that looks like it should be pulled, you pull it. If it actually needs to be pushed, you feel frustrated. The door didn't break — your mental model didn't match reality. This is what designers call a \"Norman door,\" named after Don Norman, one of the founders of UX design.\n\nNow apply that to AI:\n- ChatGPT users think: \"It's a tool — it waits for my commands.\" They approach it like Google — type a question, get an answer and leave.\n- Doubao users think: \"It's a friend — I can share my thoughts with it.\" They approach it like WeChat — check in, browse, chat casually.\n\nSame technology. Different mental models. Different behaviors. Different levels of engagement and loyalty.\n\nWhy does this matter? Because if you're building an AI product, the mental model you create through design determines how people use it, how often they come back, and whether they recommend it to friends. It's one of the most powerful levers a designer has."
+  },
+  {
+    "number": 10,
+    "title": "",
+    "texts": [
+      "GROUP DISCUSSION  ·  10 minutes",
+      "Form groups of 5-6, discuss for 5 minutes, then share one sentence per group",
+      "The AI product you use now —\nIs it a tool or a friend? Which do you want it to be? Why?"
+    ],
+    "images": [],
+    "notes": "Time for our first group discussion! This is where you get to apply what we've been discussing.\n\nLOGISTICS:\n- Form groups of 5-6 people (turn to your neighbors)\n- Discuss for 5 minutes within your group\n- Then each group shares one sentence — your group's best insight\n\nTHE QUESTION: \"The AI product you use most — is it a tool or a friend? Which do you WANT it to be? Why?\"\n\nFACILITATION TIPS:\n- Walk around the room during discussion, listen in on groups\n- If a group is quiet, prompt them: \"What AI apps are on your phone right now?\"\n- Encourage disagreement — there's no right answer here\n\nEXPECTED INSIGHTS:\n- Most students will say \"tool\" but then realize they use AI more casually than they thought\n- Some will say they want a tool but find themselves drawn to companion-style products\n- The tension between wanting efficiency (tool) and wanting connection (companion) is the core design dilemma of AI products right now\n\nTRANSITION: After groups share, acknowledge the diversity of answers and say: \"This tension between tool and companion is exactly what the biggest tech companies are wrestling with right now. Let's look at another example...\"\n\n[Timer: Set a visible 5-minute countdown for the discussion]"
+  },
+  {
+    "number": 11,
+    "title": "",
+    "texts": [
+      "ACT 2",
+      "Bing",
+      "The Pinnacle of Tool-Type Relationship Design",
+      "20 min  ·  Lecture + You Be the Designer"
+    ],
+    "images": [
+      {
+        "path": "assets/slide11_img1.jpg",
+        "size_kb": 403,
+        "width": 10,
+        "height": 5
+      }
+    ],
+    "notes": "Welcome to Act 2. We're shifting gears from companion-style AI to tool-style AI.\n\nBing — Microsoft's search engine — represents perhaps the most sophisticated example of tool-type relationship design in the AI era. When Microsoft integrated AI into Bing search, they faced a fascinating challenge: how do you add intelligence to a product without changing its fundamental nature as a tool?\n\nThis section runs 20 minutes and includes a \"You Be the Designer\" exercise, so get ready to think like a product designer.\n\nFor context: Bing has existed since 2009 as Microsoft's answer to Google Search. In early 2023, Microsoft added AI capabilities powered by the same technology as ChatGPT. But unlike ChatGPT (which is a blank conversation), Bing had to integrate AI into an existing search experience with ads, links, images, and established user expectations.\n\nThe design question: How do you add AI to search without confusing users or breaking their trust?\n\nThis is a real-world design constraint that you'll face constantly in your careers — how to evolve a product without alienating existing users."
+  },
+  {
+    "number": 12,
+    "title": "",
+    "texts": [],
+    "images": [
+      {
+        "path": "assets/slide12_img1.png",
+        "size_kb": 3008,
+        "width": 9,
+        "height": 5
+      },
+      {
+        "path": "assets/slide12_img2.png",
+        "size_kb": 2643,
+        "width": 8,
+        "height": 5
+      }
+    ],
+    "notes": "[This slide shows a screenshot or visual of Bing's interface]\n\nLet's look at Bing's actual interface. Notice the design choices:\n\nThe search bar is still front and center — that's the primary mental model being preserved. Users know what to do: type a query.\n\nBut now there's an AI-generated summary alongside the traditional blue links. This is a design decision with enormous implications: Where does the AI answer sit relative to ads? Relative to organic search results? How prominent is it?\n\nEvery pixel you see here represents a decision about priority, trust, and attention. The hierarchy of information on this page is the result of months of design iteration, user testing, and business negotiation.\n\nAsk yourself: What did the designers prioritize? What did they de-prioritize? Who benefits from these choices — the user, the advertiser, or Microsoft?\n\nThese aren't just design questions. They're ethical questions. And in your careers, you'll face them constantly."
+  },
+  {
+    "number": 13,
+    "title": "",
+    "texts": [],
+    "images": [
+      {
+        "path": "assets/slide13_img1.png",
+        "size_kb": 3008,
+        "width": 9,
+        "height": 5
+      },
+      {
+        "path": "assets/slide13_img2.png",
+        "size_kb": 1303,
+        "width": 8,
+        "height": 5
+      }
+    ],
+    "notes": "[Another Bing visual — showing more detail of the AI integration]\n\nLet's zoom in further on specific design elements.\n\nNotice how Bing handles the tension between AI answers and traditional search results. The AI summary appears at the top, but it's visually contained — it doesn't take over the whole page. This is intentional: it adds value without disrupting the existing workflow.\n\nThis design pattern is called \"progressive disclosure\" — show the most important information first and let users dig deeper if they want. It's one of the foundational principles of information architecture.\n\nQuestion for the class: If you were the designer, would you make the AI answer more prominent or less prominent? What are the trade-offs?\n\nMore prominent = users get answers faster, but they might stop clicking on links (which is how search engines make money from ads).\nLess prominent = the traditional ad revenue model is protected, but users might not discover the new AI feature.\n\nThis is the kind of real-world tension between user needs and business needs that product designers navigate every single day. There's rarely a clean answer — just trade-offs."
+  },
+  {
+    "number": 14,
+    "title": "",
+    "texts": [
+      "TOOL-TYPE DESIGN LOGIC",
+      "Information Hierarchy",
+      "Information Hierarchy",
+      "What catches the eye first? What gets folded? Every pixel is a priority decision.",
+      "Cognitive Load",
+      "Cognitive Load",
+      "Does the page feel cluttered or do you know where to click? Lower load, better experience.",
+      "Trust Design",
+      "Trust Design",
+      "Where ads go, where AI answers go — every placement shapes trust."
+    ],
+    "images": [],
+    "notes": "This slide introduces three fundamental principles of tool-type design. These are concepts used daily by UX designers at companies like Google, Microsoft, Apple, and Alibaba.\n\n1. INFORMATION HIERARCHY: What catches your eye first? What gets folded away? Every pixel on a screen is a priority decision. In a search engine, the hierarchy determines whether you see the AI answer, the ads, or the organic results first. The designer decides what's most important — and that decision shapes your behavior.\n\nSimple exercise: When you Google something, do you read the first result? The featured snippet? The \"People Also Ask\" section? That order was designed to guide your attention.\n\n2. COGNITIVE LOAD: Does the page feel cluttered, or do you immediately know where to click? Cognitive load is the mental effort required to use a product. Think of it like a budget — users have limited mental energy. Every element on the screen \"costs\" attention. Good design reduces this cost. Bad design overwhelms.\n\nPractical example: Compare Google's homepage (one search bar, almost nothing else) with Yahoo's homepage (dozens of links, news, ads). Google has low cognitive load. Yahoo has high cognitive load. Which feels better to use?\n\n3. TRUST DESIGN: Where ads go, where AI answers go, where verified information goes — every placement decision either builds or erodes trust. If an AI answer appears right next to an ad, users might not trust either. Spatial positioning communicates credibility.\n\nThese three concepts — hierarchy, cognitive load, and trust — form the analytical toolkit for evaluating any tool-type interface. You'll use them in your group exercise next."
+  },
+  {
+    "number": 15,
+    "title": "",
+    "texts": [],
+    "images": [
+      {
+        "path": "assets/slide15_img1.png",
+        "size_kb": 3008,
+        "width": 9,
+        "height": 5
+      },
+      {
+        "path": "assets/slide15_img2.png",
+        "size_kb": 2994,
+        "width": 2,
+        "height": 4
+      },
+      {
+        "path": "assets/slide15_img3.png",
+        "size_kb": 525,
+        "width": 2,
+        "height": 4
+      }
+    ],
+    "notes": "[This slide likely shows another Bing interface detail or comparison]\n\nLet's continue our analysis. Remember the three lenses we just learned: information hierarchy, cognitive load, and trust design.\n\nAs you look at this screen, try to apply all three:\n\nHIERARCHY: What's the largest element? What's positioned at the top? What requires scrolling to find? The thing that's biggest and highest gets the most attention — that's the designer's top priority.\n\nCOGNITIVE LOAD: Count the distinct \"zones\" on this page. Each zone requires mental processing. More zones = higher cognitive load. A well-designed page groups related items and uses whitespace to create breathing room.\n\nTRUST: Notice where ads are placed relative to AI-generated content. Are they clearly labeled? Can you instantly tell what's an ad and what's an organic result? Transparency in labeling is trust design in action.\n\nTIP FOR STUDENTS: Start doing this analysis with every digital product you use. Open your phone and look at any app with fresh eyes. Ask: What's the hierarchy? What's the cognitive load? Where is trust being built or eroded? This is how you develop a designer's eye."
+  },
+  {
+    "number": 16,
+    "title": "",
+    "texts": [
+      "Scenario: User searches Bing for \"What to do with a fever\"",
+      "B",
+      "AI proactively offers medical advice",
+      "More caring — or overstepping?",
+      "A",
+      "Only list search results",
+      "Respectful — or too passive?",
+      "GROUP DISCUSSION  ·  10 minutes"
+    ],
+    "images": [],
+    "notes": "This is our \"You Be the Designer\" exercise — a design dilemma with no right answer.\n\nTHE SCENARIO: A user searches Bing for \"What to do with a fever.\" Now the AI has to decide what to do.\n\nOption A: Only show search results. List links to WebMD, Mayo Clinic, etc. Let the user find the answer themselves. This is RESPECTFUL — it doesn't assume what the user needs. But some might say it's too PASSIVE — why have AI if it doesn't help?\n\nOption B: AI proactively offers medical advice. It summarizes: \"For a mild fever, rest and drink fluids. See a doctor if it exceeds 103F.\" This is MORE CARING — it directly addresses the concern. But is it OVERSTEPPING? What if the advice is wrong? What if the user is looking for something specific?\n\nFACILITATION:\n- Have groups debate Option A vs Option B for 5 minutes\n- Then ask: \"What if the user is a doctor vs. a parent of a sick child? Does that change your answer?\"\n- This introduces the concept of \"user context\" — the same design should adapt to different user needs\n\nDEEPER POINT: This is the \"paternalism vs. autonomy\" debate in AI design. How much should AI assume about what users need? There's no universal answer — it depends on context, stakes, and user expertise. Medical advice is high-stakes. Movie recommendations are low-stakes. The design should reflect the risk level.\n\n[Timer: 10 minutes for this exercise]"
+  },
+  {
+    "number": 17,
+    "title": "",
+    "texts": [
+      "ACT 3",
+      "OpenClaw",
+      "When Her Meets Reality",
+      "20 min  ·  Live Demo + Group Discussion"
+    ],
+    "images": [
+      {
+        "path": "assets/slide17_img1.png",
+        "size_kb": 3008,
+        "width": 9,
+        "height": 5
+      },
+      {
+        "path": "assets/slide17_img2.png",
+        "size_kb": 1445,
+        "width": 4,
+        "height": 4
+      }
+    ],
+    "notes": "Welcome to Act 3 — the final and most forward-looking section of today's session.\n\nOpenClaw — this is where the movie \"Her\" starts to feel less like science fiction and more like a product roadmap.\n\n\"When Her Meets Reality\" — we're going to explore what happens when the companion-style AI from the movie starts to become real technology. What are the design implications? The ethical questions? The opportunities?\n\nThis section includes a live demo and group discussion, running about 20 minutes.\n\nA note for context: We've moved from \"tool\" (Bing) to \"companion\" (Doubao) and now we're pushing further into \"agent\" territory — AI that doesn't just respond to you, but anticipates your needs and acts on your behalf.\n\nThis progression — from passive tool to active agent — is the single most important trend in technology right now. Understanding it will give you a significant advantage no matter what career path you choose, whether that's product management, engineering, design, or research.\n\nGet ready — this section will challenge some of your assumptions about what products can and should be."
+  },
+  {
+    "number": 18,
+    "title": "",
+    "texts": [
+      "INTERACTION PARADIGM SHIFT",
+      "GUI",
+      "Graphical Interface",
+      "1984 →",
+      "Buttons · Menus · Clicks",
+      "Click to command",
+      "Chat",
+      "Conversational",
+      "2022 →",
+      "Text · Voice · Intent",
+      "Ask to get",
+      "Agent",
+      "Proactive Agent",
+      "2024 →",
+      "Anticipate · Execute · No UI",
+      "Acts before you ask"
+    ],
+    "images": [],
+    "notes": "This is a big-picture slide that shows the evolution of how humans interact with computers. Three paradigm shifts in about 40 years.\n\nERA 1: GUI — Graphical User Interface (1984 onward)\nStarting with the Apple Macintosh, we got windows, buttons, menus, and a mouse. The interaction model: you SEE options, you CLICK to command. This was revolutionary because before GUI, you had to type command-line instructions. GUI made computers accessible to non-programmers.\n\nKey insight for students: Every app you've ever used — Instagram, WeChat, Word — is built on GUI principles from 1984. We've been refining the same basic paradigm for 40 years.\n\nERA 2: Chat — Conversational Interface (2022 onward)\nWith ChatGPT and similar products, interaction shifted to natural language. You don't click buttons; you describe what you want in words. The mental model changes from \"navigate menus\" to \"have a conversation.\" This is a fundamental shift because the user no longer needs to learn the product's language — the product learns yours.\n\nERA 3: Agent — Proactive AI (2024 onward)\nThis is where we are now and where we're heading. Agents don't wait for instructions. They anticipate needs, take action, and might not even have a visible interface. Think of a personal assistant who books your flight before you ask, because it noticed your calendar conflict.\n\nThe design challenge: As the interface shrinks (from screens full of buttons, to a chat box, to potentially nothing), what is left to design? That's the question we'll explore in this act.\n\nNote for students: You are entering the job market at the exact moment of this third paradigm shift. The skills you build in this course — understanding experience design beyond interfaces — will be directly applicable."
+  },
+  {
+    "number": 19,
+    "title": "",
+    "texts": [
+      "THE RELATIONSHIP SPECTRUM",
+      "← Pure Tool",
+      "Emotional Companion →",
+      "Bing / Quark",
+      "Pure Tool",
+      "OpenClaw",
+      "Smart Agent",
+      "Doubao",
+      "Companion",
+      "Samantha",
+      "Emotional Partner\n(Her)"
+    ],
+    "images": [],
+    "notes": "This is one of the most important frameworks in the course — the Relationship Spectrum.\n\nThink of this as a map of how AI products relate to their users, from purely functional on the left to deeply emotional on the right.\n\nLEFT END — Pure Tool:\nBing, Quark browser — these are utility products. You go in with a task, get it done, and leave. There's no emotional bond. The design prioritizes efficiency, speed, and accuracy. The relationship is transactional.\n\nMIDDLE-LEFT — Smart Agent:\nOpenClaw sits here. It's more than a tool — it anticipates needs, suggests actions, has some personality. But it still fundamentally serves you. Think of a very capable personal assistant: helpful, proactive, but professional.\n\nMIDDLE-RIGHT — Companion:\nDoubao lives here. It builds emotional connection. It remembers your preferences, uses warm language, checks in on you. The relationship feels personal, even friendly. The design prioritizes engagement and emotional satisfaction.\n\nRIGHT END — Emotional Partner:\nSamantha from Her. A fully emotional relationship where the AI becomes a source of love, comfort, and meaning. No real products sit here yet, but some are moving in this direction.\n\nKEY INSIGHT: There is no \"correct\" position on this spectrum. Each position is a deliberate design choice with trade-offs. A tool is reliable but forgettable. A companion is engaging but might feel invasive. The designer's job is to choose the right position for their product's context and audience.\n\nAsk students: Where would you place Siri? Alexa? Your favorite AI app?"
+  },
+  {
+    "number": 20,
+    "title": "",
+    "texts": [
+      "When the UI disappears — what is left to design?",
+      "Form groups of 5-6, discuss for 5 minutes, then share one sentence per group",
+      "GROUP DISCUSSION  ·  10 minutes"
+    ],
+    "images": [],
+    "notes": "This is our deepest discussion question of the day.\n\n\"When the UI disappears — what is left to design?\"\n\nThis question captures the central tension of modern UX design. For 40 years, designers have been designing interfaces — layouts, buttons, typography, color. But as AI moves from screens to voice to ambient intelligence, those tools disappear.\n\nSo what remains? The answer: RELATIONSHIPS, TRUST, EMOTIONS, and BEHAVIORS.\n\nWhen there's no screen, you're still designing:\n- How the AI introduces itself (first impression)\n- How it handles mistakes and uncertainty (trust repair)\n- How much it assumes about you (autonomy vs. paternalism)\n- How it communicates its limitations (transparency)\n- How it makes you feel after the interaction (emotional residue)\n\nFACILITATION:\n- Groups of 5-6, discuss for 5 minutes\n- Each group shares one sentence — their best insight\n- Walk around and listen; prompt quiet groups with: \"Think about a time an AI disappointed you. What went wrong? Was it the output, or the way it delivered it?\"\n\nEXPECTED INSIGHTS:\n- Students often say \"trust\" or \"the feeling\" — acknowledge these and tie them back to the relationship spectrum\n- Some might say \"nothing — if AI is smart enough, no design is needed.\" Challenge this gently: even Samantha in Her was designed. Her voice, her humor, her pacing — all choices.\n\nTRANSITION: After discussion, move to the closing reflection on Her.\n\n[Timer: 10 minutes]"
+  },
+  {
+    "number": 21,
+    "title": "",
+    "texts": [
+      "Her — A Look Back",
+      "We're not designing features",
+      "We're designing ways to meet needs.",
+      "The best interface is no interface?"
+    ],
+    "images": [
+      {
+        "path": "assets/slide21_img1.jpg",
+        "size_kb": 209,
+        "width": 9,
+        "height": 5
+      }
+    ],
+    "notes": "This is our closing reflection, bringing us full circle back to the movie Her.\n\nRead these three statements slowly, with pauses between each one:\n\n\"We're not designing features.\" — Pause. Let this land. Features are what engineers build. But they're not what users experience. Nobody loves an app because of its feature list. They love it because of how it makes them feel.\n\n\"We're designing ways to meet needs.\" — This is the heart of UX design. Every product exists to meet a human need — for information, for connection, for entertainment, for productivity. The features are just the vehicle.\n\n\"The lesson from Her: the best interface is no interface.\" — This doesn't mean we should literally build products with no screens. It means the ideal experience is so natural, so intuitive, that the interface becomes invisible. You don't think about the interface — you just accomplish your goal and feel good doing it.\n\nThink about the best conversations you've had in your life. Did you notice the \"interface\" (words, tone, body language)? Probably not. You were immersed in the experience. That's what great design aspires to.\n\nCLOSING THOUGHT: As you leave today, I want you to carry one idea: UX design is not about making things pretty. It's about making things feel right. And \"feeling right\" requires understanding humans — their needs, their emotions, their mental models — as deeply as you understand technology."
+  },
+  {
+    "number": 22,
+    "title": "",
+    "texts": [
+      "CHALLENGE /  CHALLENGE LAUNCH",
+      "World Cup AI Experience Design Challenge",
+      "01",
+      "5-6  per group, choose a World Cup scenario",
+      "02",
+      "Design an AI experience with a core experience proposition",
+      "03",
+      "Define your position on the relationship spectrum and explain why",
+      "04",
+      "Session 2: iterate with feedback  ·  Session 3: final presentation"
+    ],
+    "images": [
+      {
+        "path": "assets/slide22_img1.png",
+        "size_kb": 1146,
+        "width": 1,
+        "height": 1
+      }
+    ],
+    "notes": "Now for the exciting part — the World Cup AI Experience Design Challenge! This is your hands-on project that will span the remaining sessions.\n\nWalk through each step clearly:\n\nSTEP 1: Form groups of 5-6 people and choose a World Cup scenario. Examples: a fan watching from home, a fan traveling to the stadium, a journalist covering the event, a team coach preparing for a match, a food vendor at the venue. Any scenario connected to the World Cup experience.\n\nSTEP 2: Design an AI experience for that scenario. Not just \"build an app\" — design an EXPERIENCE. What need does it meet? How does it feel to use? What relationship does it create? You must define a core experience proposition — a single sentence that captures what your AI experience delivers. Example: \"We help solo fans feel like they're watching with friends.\"\n\nSTEP 3: Position your design on the relationship spectrum we discussed today. Is it a tool, a companion, or something in between? You need to justify your position — WHY did you choose that spot?\n\nSTEP 4: This is a multi-session project. In Session 2, you'll iterate based on feedback from other groups. In Session 3, you'll present your final design to the class.\n\nTIPS FOR STUDENTS:\n- Don't jump to features. Start with the human need.\n- Think about the emotional journey, not just the functional task.\n- Reference what we learned today — mental models, relationship design, the spectrum.\n- Be ambitious but focused. One brilliant experience beats ten mediocre features.\n\nThis challenge will test everything we've discussed and push you to think like real product designers."
+  },
+  {
+    "number": 23,
+    "title": "",
+    "texts": [
+      "Outstanding proposals will have a special gift."
+    ],
+    "images": [
+      {
+        "path": "assets/slide23_img1.png",
+        "size_kb": 3008,
+        "width": 9,
+        "height": 5
+      },
+      {
+        "path": "assets/slide23_img2.png",
+        "size_kb": 1509,
+        "width": 3,
+        "height": 3
+      }
+    ],
+    "notes": "End with energy and motivation!\n\n\"Outstanding proposals will have a special gift.\" — Keep this a bit mysterious. The anticipation adds motivation. If you have a specific gift planned, you can hint at it but don't reveal it fully.\n\nCLOSING REMARKS:\n- Thank everyone for their engagement today\n- Remind them of the three key concepts: Mental Model, Relationship Spectrum, and \"Experience lives in how people feel\"\n- Tell them to start forming groups and brainstorming scenarios before Session 2\n- Encourage them to use AI products this week with fresh eyes — notice the design choices\n\nHOMEWORK (optional):\n- Download both Doubao and ChatGPT if you haven't already\n- Use each for 10 minutes and write down 3 observations about how they feel different\n- Come to Session 2 with an initial World Cup scenario idea for your group\n\nSESSION 1 RECAP — Key concepts introduced today:\n1. User Experience vs. User Interface — experience transcends screens\n2. Mental Model — the image users hold about what a product is\n3. Tool vs. Companion — two fundamentally different relationship designs\n4. Information Hierarchy, Cognitive Load, Trust Design — analytical toolkit\n5. The Relationship Spectrum — from pure tool to emotional partner\n6. \"When the UI disappears, what's left to design?\" — the future of experience design\n\nGreat session. See you next time!"
+  }
+]
